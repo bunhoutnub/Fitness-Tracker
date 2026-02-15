@@ -1,6 +1,6 @@
 // Storage interface for activities and goals
-import { Activity } from '../models/Activity';
-import { Goal } from '../models/Goal';
+import type { Activity } from '../models/Activity';
+import type { Goal } from '../models/Goal';
 
 export interface StorageError {
   type: 'read' | 'write' | 'delete' | 'serialization';
