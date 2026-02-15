@@ -149,8 +149,8 @@ This implementation plan breaks down the fitness tracker Progressive Web App int
     - Test goal exactly at deadline
     - _Requirements: 3.4, 3.5_
 
-- [ ] 7. Implement AnalyticsEngine service
-  - [ ] 7.1 Create AnalyticsEngine class with statistics calculation
+- [x] 7. Implement AnalyticsEngine service
+  - [x] 7.1 Create AnalyticsEngine class with statistics calculation
     - Implement `getWeeklyStats()` method (past 7 days aggregation)
     - Implement `getMonthlyStats()` method (past 30 days aggregation)
     - Implement `getStatsByPeriod()` method for custom date ranges
@@ -180,8 +180,8 @@ This implementation plan breaks down the fitness tracker Progressive Web App int
 - [ ] 8. Checkpoint - Ensure all business logic tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 9. Create utility functions and formatters
-  - [ ] 9.1 Implement date and metric formatting utilities
+- [x] 9. Create utility functions and formatters
+  - [x] 9.1 Implement date and metric formatting utilities
     - Create `formatDate()` function for human-readable dates
     - Create `formatDuration()` function for displaying minutes/hours
     - Create `formatDistance()` function for displaying km with units
@@ -198,8 +198,8 @@ This implementation plan breaks down the fitness tracker Progressive Web App int
     - Test date formatting with various date formats
     - _Requirements: 8.4_
 
-- [ ] 10. Implement React UI components - Activity Logging
-  - [ ] 10.1 Create ActivityForm component
+- [x] 10. Implement React UI components - Activity Logging
+  - [x] 10.1 Create ActivityForm component
     - Build form with inputs for activity type (select dropdown), duration, distance, calories
     - Add date picker for activity date (HTML5 date input or date picker library)
     - Implement form validation with error display
